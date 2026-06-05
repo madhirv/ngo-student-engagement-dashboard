@@ -1,0 +1,135 @@
+file,column,dtype,missing_values,sample_value
+clean_students.csv,student_id,object,0,S00008
+clean_students.csv,student_name,object,0,James Wheeler
+clean_students.csv,date_of_birth,datetime64[ns],46,2011-01-25 00:00:00
+clean_students.csv,age_as_of_aug2021,float64,46,10.5
+clean_students.csv,gender,object,0,Female
+clean_students.csv,grade_level,object,0,Grade 1
+clean_students.csv,school_type,object,0,Aided
+clean_students.csv,center_id,object,0,BLR-C04
+clean_students.csv,region,object,0,Hebbal
+clean_students.csv,digital_access,object,0,Good
+clean_students.csv,enrollment_date,datetime64[ns],0,2021-08-26 00:00:00
+clean_students.csv,guardian_contact_available,object,0,Yes
+clean_attendance.csv,student_id,object,0,S04868
+clean_attendance.csv,session_date,datetime64[ns],0,2021-09-06 00:00:00
+clean_attendance.csv,month,object,0,2021-09
+clean_attendance.csv,subject,object,0,Math
+clean_attendance.csv,attendance_status_raw,object,0,left early
+clean_attendance.csv,attendance_status_clean,object,0,Left Early
+clean_attendance.csv,attendance_weight,float64,0,0.5
+clean_attendance.csv,session_mode,object,0,Online
+clean_attendance.csv,center_id,object,0,BLR-C06
+clean_attendance.csv,region,object,0,Electronic City
+clean_attendance.csv,digital_access,object,0,Good
+clean_homework.csv,student_id,object,0,S00175
+clean_homework.csv,subject,object,0,Arabic
+clean_homework.csv,assignment_name,object,0,Shake by.
+clean_homework.csv,due_date,datetime64[ns],0,2021-08-02 00:00:00
+clean_homework.csv,homework_status_raw,object,0, Done 
+clean_homework.csv,homework_status_clean,object,0,Done
+clean_homework.csv,homework_completed_flag,int64,0,1
+clean_homework.csv,grade_feedback,object,0,A
+clean_homework.csv,guardian_signature,object,0,No
+clean_homework.csv,center_id,object,0,BLR-C03
+clean_homework.csv,region,object,0,Yelahanka
+clean_performance.csv,student_id,object,0,S00503
+clean_performance.csv,subject,object,0,English
+clean_performance.csv,exam_score,int64,0,103
+clean_performance.csv,homework_completion_pct,int64,0,-5
+clean_performance.csv,teacher_comments,object,0,Though fact several task any sense.
+clean_performance.csv,center_id,object,0,BLR-C06
+clean_performance.csv,region,object,0,Electronic City
+clean_performance.csv,digital_access,object,0,No Access
+clean_parent_communication.csv,student_id,object,0,S08382
+clean_parent_communication.csv,communication_date,datetime64[ns],0,2022-01-19 00:00:00
+clean_parent_communication.csv,message_type,object,0,Teacher To Parent
+clean_parent_communication.csv,message_content,object,0,To help range you send wait talk hotel charge two religious whose more movement position so four win.
+clean_parent_communication.csv,center_id,object,0,BLR-C04
+clean_parent_communication.csv,region,object,0,Hebbal
+clean_bengaluru_school_context.csv,center_id,object,0,BLR-C01
+clean_bengaluru_school_context.csv,center_name,object,0,Learning Center - Whitefield
+clean_bengaluru_school_context.csv,psuedocode,int64,0,3741216
+clean_bengaluru_school_context.csv,district,object,0,BENGALURU U NORTH
+clean_bengaluru_school_context.csv,assembly,object,0,BYATARAYANAPURA
+clean_bengaluru_school_context.csv,lgd_ward_name,object,0,Ward No. 23 (Nagavara)
+clean_bengaluru_school_context.csv,school_category,int64,0,6
+clean_bengaluru_school_context.csv,school_type,int64,0,3
+clean_bengaluru_school_context.csv,managment,int64,0,5
+clean_bengaluru_school_context.csv,pincode,int64,0,560045
+clean_bengaluru_school_context.csv,lowclass,int64,0,1
+clean_bengaluru_school_context.csv,highclass,int64,0,10
+clean_bengaluru_school_context.csv,total_class_rooms,int64,0,45
+clean_bengaluru_school_context.csv,total_boys_func_toilet,int64,0,5
+clean_bengaluru_school_context.csv,total_girls_func_toilet,int64,0,5
+clean_bengaluru_school_context.csv,drinking_water_available,int64,0,1
+clean_bengaluru_school_context.csv,electricity_availability,int64,0,1
+clean_bengaluru_school_context.csv,internet_available,object,0,Yes
+clean_bengaluru_school_context.csv,ict_lab_available,object,0,Not Reported
+clean_bengaluru_school_context.csv,library_available,object,0,Yes
+clean_bengaluru_school_context.csv,playground_available,object,0,Yes
+clean_bengaluru_school_context.csv,total_teacher,int64,0,44
+clean_bengaluru_school_context.csv,total_teacher_trained_computer,int64,0,43
+clean_bengaluru_school_context.csv,total_enrolment_context,int64,0,2812
+clean_bengaluru_school_context.csv,student_teacher_ratio_context,float64,0,63.9
+program_participation.csv,student_id,object,0,S00008
+program_participation.csv,program_type,object,0,Hybrid Learning Support
+program_participation.csv,center_id,object,0,BLR-C04
+program_participation.csv,region,object,0,Hebbal
+program_participation.csv,program_start_date,datetime64[ns],0,2021-08-26 00:00:00
+program_participation.csv,program_end_date,datetime64[s],0,2022-01-30 00:00:00
+program_participation.csv,total_sessions,int64,0,20
+program_participation.csv,sessions_attended_weighted,float64,0,13.8
+program_participation.csv,attendance_rate,float64,0,0.69
+program_participation.csv,program_status,object,0,Completed
+program_participation.csv,mentor_id,object,0,MEN078
+center_cost_data.csv,center_id,object,0,BLR-C01
+center_cost_data.csv,region,object,0,Whitefield
+center_cost_data.csv,volunteer_count,int64,0,19
+center_cost_data.csv,monthly_capacity,int64,0,96
+center_cost_data.csv,monthly_program_cost_inr,int64,0,100656
+center_cost_data.csv,internet_support_cost_inr,int64,0,15590
+center_cost_data.csv,learning_material_cost_inr,int64,0,34549
+center_cost_data.csv,students_enrolled_project,int64,0,80
+center_cost_data.csv,capacity_utilization,float64,0,0.833
+center_cost_data.csv,total_monthly_cost_inr,int64,0,150795
+center_cost_data.csv,monthly_cost_per_student_inr,int64,0,1885
+ngo_student_master_2021_2022.csv,student_id,object,0,S00008
+ngo_student_master_2021_2022.csv,student_name,object,0,James Wheeler
+ngo_student_master_2021_2022.csv,date_of_birth,datetime64[ns],46,2011-01-25 00:00:00
+ngo_student_master_2021_2022.csv,age_as_of_aug2021,float64,46,10.5
+ngo_student_master_2021_2022.csv,gender,object,0,Female
+ngo_student_master_2021_2022.csv,grade_level,object,0,Grade 1
+ngo_student_master_2021_2022.csv,school_type,object,0,Aided
+ngo_student_master_2021_2022.csv,center_id,object,0,BLR-C04
+ngo_student_master_2021_2022.csv,region,object,0,Hebbal
+ngo_student_master_2021_2022.csv,digital_access,object,0,Good
+ngo_student_master_2021_2022.csv,enrollment_date,datetime64[ns],0,2021-08-26 00:00:00
+ngo_student_master_2021_2022.csv,guardian_contact_available,object,0,Yes
+ngo_student_master_2021_2022.csv,program_type,object,0,Hybrid Learning Support
+ngo_student_master_2021_2022.csv,program_status,object,0,Completed
+ngo_student_master_2021_2022.csv,total_sessions,int64,0,20
+ngo_student_master_2021_2022.csv,sessions_attended_weighted,float64,0,13.8
+ngo_student_master_2021_2022.csv,attendance_rate,float64,0,0.688
+ngo_student_master_2021_2022.csv,absent_count,int64,0,1
+ngo_student_master_2021_2022.csv,late_count,int64,0,7
+ngo_student_master_2021_2022.csv,first_session_date,datetime64[ns],0,2021-08-20 00:00:00
+ngo_student_master_2021_2022.csv,homework_completion_rate,float64,4,0.444
+ngo_student_master_2021_2022.csv,guardian_signature_rate,float64,4,0.333
+ngo_student_master_2021_2022.csv,baseline_score,float64,0,90.9
+ngo_student_master_2021_2022.csv,midline_score,float64,0,93.9
+ngo_student_master_2021_2022.csv,final_score,float64,0,96.5
+ngo_student_master_2021_2022.csv,score_improvement,float64,0,5.6
+ngo_student_master_2021_2022.csv,average_exam_score,float64,0,96.5
+ngo_student_master_2021_2022.csv,average_homework_completion_pct,float64,0,87.5
+ngo_student_master_2021_2022.csv,parent_comm_count,int64,0,1
+ngo_student_master_2021_2022.csv,teacher_to_parent_count,int64,0,1
+ngo_student_master_2021_2022.csv,automated_reminder_count,int64,0,0
+ngo_student_master_2021_2022.csv,monthly_cost_per_student_inr,int64,0,1533
+ngo_student_master_2021_2022.csv,capacity_utilization,float64,0,0.848
+ngo_student_master_2021_2022.csv,engagement_score,float64,0,53.2
+ngo_student_master_2021_2022.csv,engagement_level,category,0,Medium
+ngo_student_master_2021_2022.csv,dropout_flag,int64,0,0
+ngo_student_master_2021_2022.csv,risk_category,object,0,Medium Risk
+ngo_student_master_2021_2022.csv,improved_student_flag,int64,0,1
+ngo_student_master_2021_2022.csv,cost_per_improved_student_inr,float64,0,1981.0
